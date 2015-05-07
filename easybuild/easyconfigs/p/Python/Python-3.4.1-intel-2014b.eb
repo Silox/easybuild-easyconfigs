@@ -60,10 +60,13 @@ exts_list = [
     ('argparse', '1.2.1', {
         'source_urls': ['http://argparse.googlecode.com/files/'],
     }),
-    ('lockfile', '0.9.1', {
+    ('pbr', '0.11.0', {
+       'source_urls': ['https://pypi.python.org/packages/source/p/pbr/'],
+    }),
+    ('lockfile', '0.10.2', {
         'source_urls': ['https://pypi.python.org/packages/source/l/lockfile/'],
         # tarball has changed upstream, so make sure we get the right version by verifying the checksum
-        'checksums': ['ce61468d4c1263e3005737bbed2641f0'],
+        'checksums': ['1aa6175a6d57f082cd12e7ac6102ab15'],
     }),
     ('Cython', '0.20.2', {
         'source_urls': ['http://www.cython.org/release/'],
